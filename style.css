@@ -76,12 +76,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid white; */
 }
 
-.div-mid h4{
+.div-mid p{
     margin-bottom:35px;
     margin-top:15px;
+}
+
+.div-mid h3{
+    font-size:1rem;
+    text-align :center;
+    font-weight:400;
+
 }
 
 .search-bar{
