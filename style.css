@@ -25,30 +25,38 @@
     /* border-bottom: 5px solid black; */
     margin-bottom: 20px;
     display:flex;
-    justify-content: center;
-    justify-content: space-between;
+    /* justify-content: center; */
     align-items: center;
 }   
 
 .logo{
-    margin-left: 120px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-weight:600;
-    /* border: 2px solid white; */
+    /* margin-left: 120px; */
+    background-image:url(/netflix_logo_backdrop-removebg-preview.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:8rem;
+    width:8rem;
+    position: fixed;
+    left:1.5rem;
 }
 
-.button{
-    height:35%;
-    width:90px;
+
+.Sign-in-button{
+    height:2.5rem;
+    width:5rem;
     background-color:rgba(241, 39, 39, 0.915);
     color:white;
     font-size:1rem;
     font-weight: 400;
-    margin-right: 120px;
+    margin-left: 120px;
     border:0px solid rgb(89, 87, 87);
     border-radius: 6px;
+    /* border: 2px solid white; */
+    position: fixed;
+    right:1.5rem;
 }
+
 
 .box2{
     /* background-color: black; */
